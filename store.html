@@ -436,8 +436,19 @@
                                         <div class="overflow-hidden rounded-lg shadow-lg ring-1 ring-black ring-opacity-5">
                                             <div class="relative grid gap-6 px-5 py-6 bg-white sm:gap-8 sm:p-8">
                                                 <!-- Render each sublink -->
-                                                <!-- <each loop="link in [{&#x27;title&#x27;: &#x27;Our Best Work&#x27;, &#x27;copy&#x27;: &#x27;Driveway&#x27;, &#x27;href&#x27;: &#x27;gallery-Driveway&#x27;}, {&#x27;title&#x27;: &#x27;Our Best Work&#x27;, &#x27;copy&#x27;: &#x27;Home-Softwash&#x27;, &#x27;href&#x27;: &#x27;gallery-Home-Softwash&#x27;}, {&#x27;title&#x27;: &#x27;Our Best Work&#x27;, &#x27;copy&#x27;: &#x27;Sidewalk&#x27;, &#x27;href&#x27;: &#x27;gallery-Sidewalk&#x27;}, {&#x27;title&#x27;: &#x27;Our Best Work&#x27;, &#x27;copy&#x27;: &#x27;Pool-Deck&#x27;, &#x27;href&#x27;: &#x27;gallery-Pool-Deck&#x27;}, {&#x27;title&#x27;: &#x27;All Photos&#x27;, &#x27;copy&#x27;: &#x27;All Photos&#x27;, &#x27;href&#x27;: &#x27;gallery-All&#x27;}]"> -->
+                                                <!-- <each loop="link in [{&#x27;title&#x27;: &#x27;Our Best Work&#x27;, &#x27;copy&#x27;: &#x27;Pool-Deck&#x27;, &#x27;href&#x27;: &#x27;gallery-Pool-Deck&#x27;}, {&#x27;title&#x27;: &#x27;Our Best Work&#x27;, &#x27;copy&#x27;: &#x27;Driveway&#x27;, &#x27;href&#x27;: &#x27;gallery-Driveway&#x27;}, {&#x27;title&#x27;: &#x27;Our Best Work&#x27;, &#x27;copy&#x27;: &#x27;Home-Softwash&#x27;, &#x27;href&#x27;: &#x27;gallery-Home-Softwash&#x27;}, {&#x27;title&#x27;: &#x27;Our Best Work&#x27;, &#x27;copy&#x27;: &#x27;Sidewalk&#x27;, &#x27;href&#x27;: &#x27;gallery-Sidewalk&#x27;}, {&#x27;title&#x27;: &#x27;All Photos&#x27;, &#x27;copy&#x27;: &#x27;All Photos&#x27;, &#x27;href&#x27;: &#x27;gallery-All&#x27;}]"> -->
                                                   
+                                                    <a
+                                                        href=" gallery-Pool-Deck "
+                                                        role="menuitem"
+                                                        class="block p-3 -m-3 transition rounded-md  focus:outline-none focus:ring-2 ring-primary ring-opacity-75 ring-offset-2 hover:bg-gray-50"
+                                                    >
+                                                        <!-- <p class="text-base font-medium text-gray-900">Our Best Work</p> -->
+                                                        <p class="mt-1 text-sm text-gray-500">Pool-Deck</p>
+                                                    </a>
+                                                <!-- </each> -->
+                                               <!--  -->
+                                                 
                                                     <a
                                                         href=" gallery-Driveway "
                                                         role="menuitem"
@@ -467,17 +478,6 @@
                                                     >
                                                         <!-- <p class="text-base font-medium text-gray-900">Our Best Work</p> -->
                                                         <p class="mt-1 text-sm text-gray-500">Sidewalk</p>
-                                                    </a>
-                                                <!-- </each> -->
-                                               <!--  -->
-                                                 
-                                                    <a
-                                                        href=" gallery-Pool-Deck "
-                                                        role="menuitem"
-                                                        class="block p-3 -m-3 transition rounded-md  focus:outline-none focus:ring-2 ring-primary ring-opacity-75 ring-offset-2 hover:bg-gray-50"
-                                                    >
-                                                        <!-- <p class="text-base font-medium text-gray-900">Our Best Work</p> -->
-                                                        <p class="mt-1 text-sm text-gray-500">Pool-Deck</p>
                                                     </a>
                                                 <!-- </each> -->
                                                <!--  -->
@@ -752,6 +752,12 @@
                                         <div class="relative grid gap-6 px-5 py-2 bg-white rounded-lg">
                                             <!-- Render each sublink -->
                                             
+                                                <a href="gallery-Pool-Deck" role="menuitem" class="block p-3 -m-3 transition rounded-md">
+                                                    <!-- <p class="text-base font-medium text-gray-900">Our Best Work</p> -->
+                                                    <p class="mt-1 text-sm text-gray-500">Pool-Deck</p>
+                                                </a>
+                                            <!-- </each> -->
+                                            
                                                 <a href="gallery-Driveway" role="menuitem" class="block p-3 -m-3 transition rounded-md">
                                                     <!-- <p class="text-base font-medium text-gray-900">Our Best Work</p> -->
                                                     <p class="mt-1 text-sm text-gray-500">Driveway</p>
@@ -767,12 +773,6 @@
                                                 <a href="gallery-Sidewalk" role="menuitem" class="block p-3 -m-3 transition rounded-md">
                                                     <!-- <p class="text-base font-medium text-gray-900">Our Best Work</p> -->
                                                     <p class="mt-1 text-sm text-gray-500">Sidewalk</p>
-                                                </a>
-                                            <!-- </each> -->
-                                            
-                                                <a href="gallery-Pool-Deck" role="menuitem" class="block p-3 -m-3 transition rounded-md">
-                                                    <!-- <p class="text-base font-medium text-gray-900">Our Best Work</p> -->
-                                                    <p class="mt-1 text-sm text-gray-500">Pool-Deck</p>
                                                 </a>
                                             <!-- </each> -->
                                             
@@ -873,7 +873,7 @@
                             </svg>
                         </div>
                         <h3 class="text-xl font-medium text-gray-900">Send us a text</h3>
-                        <p class="mt-4 text-base text-gray-500">None</p>
+                        <p class="mt-4 text-base text-gray-500"> </p>
                     </div>
                 </div>
             <!-- </each> -->
@@ -901,7 +901,7 @@
                             </svg>
                         </div>
                         <h3 class="text-xl font-medium text-gray-900">Give us a call</h3>
-                        <p class="mt-4 text-base text-gray-500">None</p>
+                        <p class="mt-4 text-base text-gray-500"> </p>
                     </div>
                 </div>
             <!-- </each> -->
@@ -929,7 +929,7 @@
                             </svg>
                         </div>
                         <h3 class="text-xl font-medium text-gray-900">Send us an email</h3>
-                        <p class="mt-4 text-base text-gray-500">None</p>
+                        <p class="mt-4 text-base text-gray-500"> </p>
                     </div>
                 </div>
             <!-- </each> -->
@@ -1402,52 +1402,52 @@
                                 
                                     <div class="flex items-center">
                                         <input
-                                            id="contact-service-104516"
-                                            name="104516"
+                                            id="contact-service-104529"
+                                            name="104529"
                                             type="checkbox"
                                             class="w-4 h-4 border-gray-300 rounded text-primary focus:ring-primary"
                                         />
-                                        <label for="contact-label-service-104516" class="ml-3 text-sm font-medium text-gray-700">Home Softwash</label>
+                                        <label for="contact-label-service-104529" class="ml-3 text-sm font-medium text-gray-700">Home Softwash</label>
                                     </div>
                                 
                                     <div class="flex items-center">
                                         <input
-                                            id="contact-service-104517"
-                                            name="104517"
+                                            id="contact-service-104530"
+                                            name="104530"
                                             type="checkbox"
                                             class="w-4 h-4 border-gray-300 rounded text-primary focus:ring-primary"
                                         />
-                                        <label for="contact-label-service-104517" class="ml-3 text-sm font-medium text-gray-700">Driveway & Sidewalk Cleaning</label>
+                                        <label for="contact-label-service-104530" class="ml-3 text-sm font-medium text-gray-700">Driveway & Sidewalk Cleaning</label>
                                     </div>
                                 
                                     <div class="flex items-center">
                                         <input
-                                            id="contact-service-104518"
-                                            name="104518"
+                                            id="contact-service-104531"
+                                            name="104531"
                                             type="checkbox"
                                             class="w-4 h-4 border-gray-300 rounded text-primary focus:ring-primary"
                                         />
-                                        <label for="contact-label-service-104518" class="ml-3 text-sm font-medium text-gray-700">Hardscape Cleaning</label>
+                                        <label for="contact-label-service-104531" class="ml-3 text-sm font-medium text-gray-700">Hardscape Cleaning</label>
                                     </div>
                                 
                                     <div class="flex items-center">
                                         <input
-                                            id="contact-service-104519"
-                                            name="104519"
+                                            id="contact-service-104532"
+                                            name="104532"
                                             type="checkbox"
                                             class="w-4 h-4 border-gray-300 rounded text-primary focus:ring-primary"
                                         />
-                                        <label for="contact-label-service-104519" class="ml-3 text-sm font-medium text-gray-700">Other Pressure Washing Services</label>
+                                        <label for="contact-label-service-104532" class="ml-3 text-sm font-medium text-gray-700">Other Pressure Washing Services</label>
                                     </div>
                                 
                                     <div class="flex items-center">
                                         <input
-                                            id="contact-service-104520"
-                                            name="104520"
+                                            id="contact-service-104533"
+                                            name="104533"
                                             type="checkbox"
                                             class="w-4 h-4 border-gray-300 rounded text-primary focus:ring-primary"
                                         />
-                                        <label for="contact-label-service-104520" class="ml-3 text-sm font-medium text-gray-700">Pool Decks</label>
+                                        <label for="contact-label-service-104533" class="ml-3 text-sm font-medium text-gray-700">Pool Decks</label>
                                     </div>
                                 
                             </div>
